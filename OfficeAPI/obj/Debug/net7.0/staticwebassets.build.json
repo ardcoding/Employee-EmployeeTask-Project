@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "ce82ANDJoUMpOViinKtES/zv4wOOWVeWAx5SHcY2lx0=",
+  "Source": "OfficeAPI",
+  "BasePath": "_content/OfficeAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
