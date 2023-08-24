@@ -1028,6 +1028,19 @@
           }
         }
       },
+      "DataAccess.Layer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "OfficeDb": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DataAccess.Layer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataAccess.Layer.dll": {}
+        }
+      },
       "OfficeDb/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -3186,6 +3199,11 @@
         "version.txt"
       ]
     },
+    "DataAccess.Layer/1.0.0": {
+      "type": "project",
+      "path": "../DataAccess.Layer/DataAccess.Layer.csproj",
+      "msbuildProject": "../DataAccess.Layer/DataAccess.Layer.csproj"
+    },
     "OfficeDb/1.0.0": {
       "type": "project",
       "path": "../OfficeDb/OfficeDb.csproj",
@@ -3194,6 +3212,7 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "DataAccess.Layer >= 1.0.0",
       "OfficeDb >= 1.0.0"
     ]
   },
@@ -3224,6 +3243,9 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
+            "C:\\Users\\ASUS\\Desktop\\Employee-EmployeeTask-Project\\DataAccess.Layer\\DataAccess.Layer.csproj": {
+              "projectPath": "C:\\Users\\ASUS\\Desktop\\Employee-EmployeeTask-Project\\DataAccess.Layer\\DataAccess.Layer.csproj"
+            },
             "C:\\Users\\ASUS\\Desktop\\Employee-EmployeeTask-Project\\OfficeDb\\OfficeDb.csproj": {
               "projectPath": "C:\\Users\\ASUS\\Desktop\\Employee-EmployeeTask-Project\\OfficeDb\\OfficeDb.csproj"
             }

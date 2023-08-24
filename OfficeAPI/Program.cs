@@ -9,13 +9,13 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers().AddNewtonsoftJson(options =>
     options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore
 );
-
 builder.Services.AddDbContext<OfficeDbContext>();
-builder.Services.AddScoped<IBaseRepository<Employee>, BaseRepository<Employee>>();
-builder.Services.AddScoped<IBaseBusiness<Employee>, BaseBusiness<Employee>>();
 
-builder.Services.AddScoped<IBaseRepository<EmployeeTask>, BaseRepository<EmployeeTask>>();
-builder.Services.AddScoped<IBaseBusiness<EmployeeTask>, BaseBusiness<EmployeeTask>>();
+builder.Services.AddScoped<IEmployeeTaskBusiness, EmployeeTaskBusiness>();
+builder.Services.AddScoped<IEmployeeBusiness, EmployeeBusiness>();
+
+builder.Services.AddScoped<IEmployeeRepository, EmployeeRepository>();
+builder.Services.AddScoped<IEmployeeTaskRepository, EmployeeTaskRepository>();
 // Add services to the container.
 
 builder.Services.AddControllers();

@@ -66,3 +66,8 @@ C:\Users\ASUS\Desktop\Employee-EmployeeTask-Project\BusinessServicess.Layer\obj\
 C:\Users\ASUS\Desktop\Employee-EmployeeTask-Project\BusinessServicess.Layer\obj\Debug\net7.0\BusinessServicess.Layer.pdb
 C:\Users\ASUS\Desktop\Employee-EmployeeTask-Project\BusinessServicess.Layer\obj\Debug\net7.0\BusinessServicess.Layer.genruntimeconfig.cache
 C:\Users\ASUS\Desktop\Employee-EmployeeTask-Project\BusinessServicess.Layer\obj\Debug\net7.0\ref\BusinessServicess.Layer.dll
+C:\Users\ASUS\Desktop\Employee-EmployeeTask-Project\BusinessServicess.Layer\bin\Debug\net7.0\DataAccess.Layer.deps.json
+C:\Users\ASUS\Desktop\Employee-EmployeeTask-Project\BusinessServicess.Layer\bin\Debug\net7.0\DataAccess.Layer.runtimeconfig.json
+C:\Users\ASUS\Desktop\Employee-EmployeeTask-Project\BusinessServicess.Layer\bin\Debug\net7.0\DataAccess.Layer.exe
+C:\Users\ASUS\Desktop\Employee-EmployeeTask-Project\BusinessServicess.Layer\bin\Debug\net7.0\DataAccess.Layer.dll
+C:\Users\ASUS\Desktop\Employee-EmployeeTask-Project\BusinessServicess.Layer\bin\Debug\net7.0\DataAccess.Layer.pdb

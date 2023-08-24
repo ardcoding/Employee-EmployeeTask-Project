@@ -657,6 +657,7 @@
       },
       "BusinessServicess.Layer/1.0.0": {
         "dependencies": {
+          "DataAccess.Layer": "1.0.0",
           "OfficeDb": "1.0.0"
         },
         "runtime": {
